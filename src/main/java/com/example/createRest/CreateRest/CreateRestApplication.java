@@ -17,7 +17,7 @@ import com.example.createRest.Repository.ProjectRepository;
 @ComponentScan("com.example.service")
 @SpringBootApplication
 @EnableAutoConfiguration
-
+//Pushing code to dev branch test comment
 public class CreateRestApplication implements CommandLineRunner{
 
 	@Autowired
