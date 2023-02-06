@@ -6,6 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+
 import com.example.createRest.Entity.User;
 import com.example.createRest.Repository.ProjectRepository;
 @ComponentScan("com.example.createRest.Repository")
@@ -15,6 +17,7 @@ import com.example.createRest.Repository.ProjectRepository;
 @ComponentScan("com.example.service")
 @SpringBootApplication
 @EnableAutoConfiguration
+
 public class CreateRestApplication implements CommandLineRunner{
 
 	@Autowired

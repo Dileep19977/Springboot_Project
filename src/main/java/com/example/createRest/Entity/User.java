@@ -1,7 +1,9 @@
 package com.example.createRest.Entity;
 
-public class User {
+import org.springframework.data.annotation.Id;
 
+public class User {
+	@Id
 	private int UserId;
 	private String name;
 	private String address;

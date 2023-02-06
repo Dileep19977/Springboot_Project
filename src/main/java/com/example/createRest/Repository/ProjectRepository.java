@@ -4,12 +4,18 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.springframework.data.mongodb.core.MongoOperations;
+import org.springframework.data.mongodb.repository.query.MongoEntityInformation;
+import org.springframework.data.mongodb.repository.support.SimpleMongoRepository;
 import org.springframework.stereotype.Repository;
 
 import com.example.createRest.Entity.User;
 
+
 @Repository
 public class ProjectRepository {
+
+
 
 	public List <User> user = new ArrayList<User>();
 
