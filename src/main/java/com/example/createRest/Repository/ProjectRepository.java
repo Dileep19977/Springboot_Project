@@ -30,7 +30,7 @@ public class ProjectRepository {
 		user.add(user2);
 		return user;
 	}
-
+//delete by id
 	public List<User> deleteuser(int userId) {
 		// TODO Auto-generated method stub
 		//user.stream()
